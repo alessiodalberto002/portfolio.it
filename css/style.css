@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/* HEADER */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.header-menu{
+    display: flex;
+}
+
+.header-menu li {
+    margin-right: 20px;
+}
